@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+p{
+  color: rgb(105, 105, 105);
+  font-family: 'Ubuntu', sans-serif;
+}
+button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background: rgb(248, 248, 248);
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(194, 0, 0);
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.container-button{
+width: 100%;
+margin-top: 80px;
+}
+
+button:hover {
+  box-shadow: -5px -5px 15px rgb(255, 140, 140);
+  font-size: 15px;
+  transition: 500ms;
+}
+
+button:focus {
+  outline: none;
+}
+.container{
+display: flex;
+align-items: left;
+justify-content: left;
+}
+
